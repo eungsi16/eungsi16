@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>응시16-낙산스터디그룹</title>
+    <script>
+
+        alert("응시16팀의 웹프로그래밍 페이지 입니다");
+        alert("java & 공학수학 을 위한 페이지 입니다.");
+    </script>
+    <style>
+        body
+        {
+            background-color : lavender;
+            background-size: 100%;
+        }
+        h1
+        {
+            color: azure;
+            background: darkseagreen;
+            border-radius: 20px 20px 20px 20px;
+            -moz-border-radius: 20px 20px 20px 20px;
+            -webkit-border-radius: 20px 20px 20px 20px;
+            border: 0px solid #000000;
+
+        }
+        h1:hover{color: black;}
+
+        th
+        {
+            background: dodgerblue;
+        }
+        .floating-box
+        {
+            background: white;
+            display: inline-block;
+            width: 500px;
+            margin: 10px;
+            border: 3px solid black;
+            float: left;
+        }
+
+
+        .fixed-box
+        {
+            display: inline-block;
+            width: 500px;
+            margin: 10px;
+            border: 3px solid deepskyblue;
+            float: left;
+            position: absolute;
+            left: 0%; top:40%;
+        }
+        .submit-box
+        {
+            background: white;
+            display: inline-block;
+            width: 500px;
+            margin: 10px;
+            border: 3px solid deepskyblue;
+            float: left;
+        }
+        div
+        {
+            border: 3px solid black;
+            box-shadow: 10px 10px 30px black;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="floating-box">
+    <h1>BGM</h1>
+    <embed src="스물다섯 스물하나.mp3" controls="controls" autostart="true" loop="true" ></embed>
+</div>
+<br>
+
+<div class="floating-box">
+    <h1 id="Menu"> Menu</h1>
+    <br>
+    <br>
+    &nbsp;&nbsp;<a href="#소개">  -소개</a>
+    <br>
+    <br>
+    &nbsp;&nbsp;<a href="#활동사진">    -활동사진</a>
+    <br>
+    <br>
+    &nbsp;&nbsp;<a href="#JAVA">    -JAVA</a>
+    <br>
+    <br>
+    &nbsp;&nbsp;<a href="#공학 수학">   -공학 수학</a>
+    <br>
+    <br>
+    &nbsp;&nbsp;<a href="#방명록">-방명록</a>
+</div>
+
+<hr>
+<br>
+<div class="floating-box">
+    <h1 id="소개">소개</h1>
+    <p>한성대학교 IT응용시스템공학과 응시16팀
+    <hr>
+
+    <br>
+    <img src="단체사진.jpg" width="300"  >
+    <br>
+    <p>멤버</p><hr>
+    <p>팀장 1694032 이은미</p><hr>
+    <p>팀원 1694037 임채희</p><hr>
+    <p>팀원 1694039 장원경</p><hr>
+    <p>팀원 1694048 최유진</p><hr>
+    <p>팀원 1694050 최홍권</p><hr>
+
+    <p>
+        <a href="#Menu">Menu로</a>
+    </p>
+</div>
+<br>
+<div class="floating-box">
+    <h1 id="활동사진">활동사진</h1>
+    <p>
+        <img src="1주차.jpg" alt="1주차사진" width="300">
+        <br>
+    <p>[1주차 사진]</p><hr>
+    <img src="2주차.jpg" alt="2주차사진" width="300">
+    <p>[2주차 사진]</p><hr>
+    <img src="3주차.jpg" alt="3주차사진" width="300">
+    <p>[3주차 사진]</p><hr>
+    <img src="4주차.jpg" alt="4주차사진" width="300">
+    <p>[4주차 사진]</p>
+    <img src="5주차.jpg" alt="5주차사진" width="300">
+    <p>[5주차 사진]</p>
+    <img src="6주차.jpg" alt="6주차사진" width="300">
+    <br>
+    <p>[6주차 사진]</p><hr>
+    <img src="7주차.jpg" alt="7주차사진" width="300">
+    <p>[7주차 사진]</p><hr>
+    <img src="8주차.jpg" alt="8주차사진" width="300">
+    <p>[8주차 사진]</p><hr>
+    <img src="9주차.jpg" alt="9주차사진" width="300">
+    <p>[9주차 사진]</p>
+    <img src="10주차.jpg" alt="10주차사진" width="300">
+    <p>[10주차 사진]</p>
+    <hr>
+
+
+    <a href="#Menu">Menu로</a>
+    </p>
+</div>
+<br>
+<div class="floating-box">
+    <h1 id="JAVA">JAVA</h1>
+
+    <ol type="1">
+        <li><a href="https://learn.hansung.ac.kr/webapps/login/?action=relogin" target="_blank">자바 블랙보드 링크</a></li>
+        <li><a href="JAVA 도전과제 1번.txt" download="JAVA 도전과제 1번.txt">JAVA 도전과제 1번</a></li>
+        <li><a href="JAVA 도전과제 1번.txt" download="JAVA 도전과제 1번.txt">JAVA 도전과제 2번</a></li>
+        <li><p>강의자료</p>
+            <ul>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-154134-dt-content-rid-263101_1/courses/20171AIT0009A/1%EC%9E%A5.pdf" target="_blank">1주차 - 자바 특징 소개 및 자바 프로그래밍 시작하기</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-150401-dt-content-rid-205963_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%B0%94%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EA%B8%B0%EB%B3%B8.pdf" target="_blank">2주차(1) /</a>
+                    <a href="https://learn.hansung.ac.kr/bbcswebdav/pid-150403-dt-content-rid-205967_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88-%EC%8B%9D%EA%B3%BC%EC%97%B0%EC%82%B0.pdf" target="_black"> 2주차(2) /</a><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-150404-dt-content-rid-205972_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88-%EC%A1%B0%EA%B1%B4%EA%B3%BC%EB%B0%98%EB%B3%B5.pdf" target="_black"> 2주차(3) - 자바 프로그램의 구조 및 기본 문법 학습</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-150781-dt-content-rid-210016_1/courses/20171AIT0009A/1.%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%882-%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4%ED%83%80%EC%9E%85%EA%B3%BC%20%EB%B0%B0%EC%97%B4.pdf" target="_blank">3주차(1) /</a><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-150783-dt-content-rid-210020_1/courses/20171AIT0009A/2.%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%882-%EB%A9%94%EC%86%8C%EB%93%9C%EC%99%80%20%EB%B0%B0%EC%97%B4.pdf" target="_blank"> 3주차(2) /</a><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-150784-dt-content-rid-210025_1/courses/20171AIT0009A/3.%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%882-%EC%9D%B4%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4.pdf" target="_blank"> 3주차(3) - 레퍼런스타입과 배열, 메소드와 배열, 이차원배열</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-151609-dt-content-rid-219884_1/courses/20171AIT0009A/1.%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EA%B0%9D%EC%B2%B4%20I-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EA%B0%9D%EC%B2%B4.pdf" target="_blank">4주차(1) /</a><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-151611-dt-content-rid-219887_1/courses/20171AIT0009A/2.%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EA%B0%9D%EC%B2%B4%20I-%EC%BA%A1%EC%8A%90%ED%99%94.pdf" target="_blank"> 4주차(2) /</a><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-151612-dt-content-rid-219892_1/courses/20171AIT0009A/3.%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EA%B0%9D%EC%B2%B4%20I-%EA%B0%9D%EC%B2%B4%EB%B0%B0%EC%97%B4.pdf" target="_blank"> 4주차(3) - 클래스와 객체, 캡슐화, 객체배열</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-152295-dt-content-rid-239131_1/courses/20171AIT0009A/%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A9%E1%86%A8%281%29.pdf" target="_blank">5주차 - Static 멤버, 상속의 개념, 클래스 상속과 생성자Static 멤버, 상속의 개념, 클래스 상속과 생성자</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-153257-dt-content-rid-246637_1/courses/20171AIT0009A/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%99%80%20%EB%8B%A4%ED%98%95%EC%84%B1.pdf" target="_blank">6주차 - 업캐스팅과 다운캐스팅, 다형성 (메소드 오버라이딩), 추상클래스, 인터페이스</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-153855-dt-content-rid-256639_1/courses/20171AIT0009A/%ED%8C%A8%ED%82%A4%EC%A7%80%EC%99%80%20%EC%BB%AC%EB%A0%89%EC%85%98.pdf" target="_blank">7주차 - 패키지 만들기,  JDK 주요 패키지 활용, 캘렉션</a></li>
+                <li><a href="https://learn.hansung.ac.kr/webapps/assessment/take/launchAssessment.jsp?course_id=_10507_1&content_id=_154548_1&mode=view" target="_blank">8주차(중간고사)</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-154549-dt-content-rid-270860_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20GUI%20%EA%B8%B0%EC%B4%88.pdf" target="_blank">9주차 - 자바 GUI 개념, 배치관리자</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-155334-dt-content-rid-288446_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC.pdf" target="_blank">10주차 - 이벤트 처리 절차 및 방법, Key 이벤트 처리, Mouse 이벤트 처리</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-155334-dt-content-rid-288446_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC.pdf" target="_blank">11주차 - 스윙 컴포넌트 소개, 스윙 컴포넌트 활용</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-156870-dt-content-rid-307817_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20%EA%B7%B8%EB%9E%98%ED%94%BD.pdf" target="_blank">12주차 - 그래픽 그리기</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-156928-dt-content-rid-309752_1/courses/20171AIT0009A/%EC%9E%90%EB%B0%94%20%EC%8A%A4%EB%A0%88%EB%93%9C.pdf" target="_blank">13주차 - 멀티테스킹, 스레드</a></li>
+                <li><a href="https://learn.hansung.ac.kr/bbcswebdav/pid-157651-dt-content-rid-324287_1/courses/20171AIT0009A/%EC%9E%85%EC%B6%9C%EB%A0%A5%20%EC%8A%A4%ED%8A%B8%EB%A6%BC.pdf" target="_blank">14주차 - 자바의 입출력 스트림, 파일 클래스</a></li>
+                <li><a href="https://learn.hansung.ac.kr/webapps/blackboard/content/listContent.jsp?course_id=_10507_1&content_id=_127255_1" target="_blank">15주차(기말고사)</a></li>
+            </ul></li></ol>
+
+
+    <a href="#Menu">Menu로</a>
+</div>
+
+<br>
+<div class="floating-box">
+    <h1 id="공학 수학">공학 수학</h1>
+
+    <ul>
+        <li><a href="http://cafe.naver.com/hansmath2017" target="_blank">공학수학 홈페이지</a></li>
+        <li><a href="공학수학(zill&cullen) 답지.zip" download="공학수학(zill&cullen) 답지.zip">공학수학 교재 답지</a></li>
+    </ul>
+    <h3>1단원 (First Order Differential Equation) </h3>
+    <ul>
+        <li><a href="https://docs.google.com/presentation/d/1F_jLcw6OvpEq-HLHNwx0vozN39Ny644alrgy0aBE8ac/edit#slide=id.p13" target="_blank">lecture 2.1</a></li>
+
+        <li><a href="https://docs.google.com/document/d/1HBph3GgzKryctx-XA9ISV8fQPyNA70CkgITKmxNB5yE/edit" target="_blank">lecture 2.2</a></li>
+
+        <li><a href="https://docs.google.com/document/d/1SfF5lZAc96bYR74AlHpmzwkpgVLriSeEvR8NmdirfdU/edit" target="_blank">lecture 2.3</a></li>
+
+        <li><a href="https://docs.google.com/document/d/12TW6bpQLIdi4ZyyyZe0RYlCEf-fge4vyPYQSz74d5S0/edit" target="_blank">lecture 3.1</a></li>
+
+        <li><a href="https://docs.google.com/document/d/1X7SkyHLAOLvuwU2QElFqkycrdJkD3PbORxRkiwCIkCQ/edit" target="_blank">lecture 3.2</a></li>
+
+        <li><a href="https://docs.google.com/document/d/1MScC-c6rnl0pP8prUG-f_9_N2uPnqKIg2IUELKPxq74/edit" target="_blank">lecture 3.3</a></li>
+    </ul>
+    <h3>2단원 (Second Order Differential Equation) </h3>
+    <ul>
+        <li><a href="https://docs.google.com/document/d/1yY_d1TaTjxbXiXtDAsp4ANd1hLNpvAGBPrK2oD5Gxm4/edit" target="_blank">lecture 5.1</a></li>
+        <li><a href="https://docs.google.com/document/d/11MffZXkW0XxTlaWU0aYZtJtIJpQDipEoxsSFYx3jA3A/edit" target="_blank">lecture 5.2</a></li>
+        <li><a href="https://docs.google.com/document/d/1gp5rss48mKpqr5Io_8I0bCvz0PPCg8bx_JZ3dcwVaBY/edit" target="_blank">lecture 5.3</a></li>
+        <li><a href="https://docs.google.com/document/d/1HGHjPQfcWCDg2ehOsfnGl1sx6apMoazP9vbK8TI3-hI/edit" target="_blank">lecture 6.1</a></li>
+        <li><a href="https://docs.google.com/document/d/1uyObtt6MmgflWzhvnf1pOOSCrVdbTL3Yz5wqvH4p5G0/edit" target="_blank">lecture 6.2</a></li>
+        <li><a href="https://docs.google.com/document/d/1s_cRQW7PMJMLaUrDmidPCNusETWFLOROG2JQVyl5mJA/edit" target="_blank">lecture 6.3</a></li>
+        <li><a href="https://docs.google.com/document/d/1ZQ1hVrmz4hThXY8dAJouS2hcbsF0IyYtthQk9u-ly7Y/edit" target="_blank">lecture 8.1</a></li>
+        <li><a href="https://docs.google.com/document/d/1700G00ZAcck3Rim3udkxOvRONlZt2MJCiUbC0ljZfi0/edit" target="_blank">lecture 8.2</a></li>
+    </ul>
+    <h3>3단원 (Laplace Transformation) </h3>
+    <ul>
+        <li><a href="https://docs.google.com/document/d/1schmhDFtEj6TZyUFj_mWQg3J9AHjd0l8bQ2kn04yAmg/edit" target="_blank">lecture 9.1</a></li>
+        <li><a href="https://docs.google.com/document/d/1gSHpyrEztdMpqoLaGKSUQb5H8FIXgOvVG8bH7OC6fAw/edit" target="_blank">lecture 10.1</a></li>
+        <li><a href="https://docs.google.com/document/d/17Xdv2-phK92eWKFAjWjipSfql9eq6i4brWBFNoyKIZo/edit" target="_blank">lecture 10.2</a></li>
+        <li><a href="https://docs.google.com/document/d/1dhZ_wmO9RCjf_-twHlWhx0Wra1NQVAqVCJXW5HvJnPY/edit?usp=sharing" target="_blank">lecture 11.1</a></li>
+        <li><a href="https://docs.google.com/document/d/1tk_RLvZEQwflPolXTGiTyG-WzOXfF4CpMWOKin4K-As/edit?usp=sharing" target="_blank">lecture 11.2</a></li>
+    </ul>
+    <h3>4단원 (Vector) </h3>
+    <ul>
+        <li><a href="https://docs.google.com/document/d/167ci_jKcRsCUXZA4G-NUKUIKp6VmvKrHfhSxWPrTp38/edit" target="_blank">lecture 12.1</a></li>
+        <li><a href="https://docs.google.com/document/d/1gLWy9osQWucAVbQw0LMSBx70aosUAM3IkoYlpqFo4qY/edit" target="_blank">lecture 12.2</a></li>
+        <li><a href="https://docs.google.com/document/d/1Qm7b4U_6IndtUCMZA93LTioVLFqJ1pGXsqmqeam19_g/edit" target="_blank">lecture 12.3</a></li>
+    </ul>
+    </br>
+
+    <h3>퀴즈1 Link(문제와 해설) </h3><li><a href="https://drive.google.com/open?id=1xzdARTlAkiChIsAqlStsbYPcdoN12J_GL89lVWUjTTk" target="_blank">QUIZ 1</a></li>
+    <h3>퀴즈2 Link(문제와 해설) </h3><li><a href="https://docs.google.com/document/d/17LknmnXYfSj-at1cE1IYUGD1OodySvESCBzKknZKAEc/edit" target="_blank">QUIZ 2</a></li>
+    <h3>퀴즈3 Link(문제와 해설) </h3><li><a href="https://drive.google.com/open?id=1xCiqpzrDKZ6IKRH5TtvaC40GcHyn_pd7LXb-RPtz2ZI" target="_blank">QUIZ 3</a></li>
+    <br>
+
+    <a href="#Menu">Menu로</a>
+
+
+
+</div>
+
+<br>
+<div class="submit-box">
+
+    <h1 id="방명록">방명록</h1>
+
+    <form action="http://www.w3schools.com/action_page.php" target="_blank" method="GET">
+        <fieldset>
+            <legend>Basic personal information:</legend>
+            Name:
+            <input type="text" name="Name" value="type name">
+            <br>
+            Sex:
+            <input type="radio" name="Sex" value="Male"checked>Male/
+            <input type="radio" name="Sex" value="Female">Female
+            <br>
+            Age:
+            <input type="text" name="age" value="22">
+            <br>
+            Height(cm) :140
+            <input type="range" name="height" min="140" max="220">220
+            <br>
+            Favorite color:
+            <input type="color" name="Favcolor" value="#ffff00">
+        </fieldset>
+        <fieldset>
+            <legend>basic academic information</legend>
+
+            Student ID :
+            <input type="text" name="studentID">
+            Year:
+            <select name="Year">
+                <option value="1-st">1-st</option>
+                <option value="2-nd">2-nd</option>
+                <option value="3-rd">3-rd</option>
+                <option value="4-th">4-th</option>
+            </select>
+            <br>
+            Department :
+            <select name="dept">
+                <option value="Applied IT">Applied IT</option>
+                <option value="Computer">Computer </option>
+                <option value="Electronics">Electronics</option>
+            </select>
+            <br>
+            classes:
+            <br>
+            <input type="checkbox" name="class" value="Scratch Programming">
+            Scratch Programming
+            <br>
+            <input type="checkbox" name="class" value="web programming">
+            web programming
+            <br>
+            <input type="checkbox" name="class" value="C language">
+            C language
+            <br>
+            <input type="checkbox" name="class" value="Java language">
+            Java language<br>
+            <input type="checkbox" name="class" value="Computer graphic">
+            Computer graphic
+            <br>
+            <input type="checkbox" name="class" value="Data base">
+            Data base
+
+        </fieldset>
+        <input type="submit">
+
+    </form>
+
+
+</div>
+
+
+
+</body>
+</html>
