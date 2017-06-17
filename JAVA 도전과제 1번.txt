@@ -1,0 +1,354 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.printf("일\t월\t화\t수\t목\t금\t토\n");
+
+        int[][] calender = new int[5][7];
+
+        int n=1;
+
+        for(int i=0; i<5; i++ ){
+            for(int j=0; j<7; j++) {
+                if (i==0 && j==0){
+                    System.out.printf("\0\t");
+                    continue;
+                }
+                if (j%7==0) {
+                    System.out.println();
+                }
+                    calender[i][j] =n;
+                    System.out.printf("%2d\t",calender[i][j]);
+                    n++;
+
+                    if (n > 31)
+                        break;
+                }
+            }
+            System.out.println();
+        }
+
+
+    }
+
+
+
+
+
+
+
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("연도를 입력하시오:");
+        int year = scanner.nextInt();
+
+        System.out.print("월을 입력하시오:");
+        int month = scanner.nextInt();
+
+        System.out.print("일을 입력하시오:");
+        int day = scanner.nextInt();
+
+        int[] Days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        int total_days = 0;
+        total_days += (year - 1) * 365;
+        total_days += year / 4 - year / 100 + year / 400;
+
+        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
+            if (month == 1 || month == 2) {
+                total_days -= -1;
+            }
+            Days[1] += 1;
+        }
+        for (int i = 0; i < month - 1; i++) {
+            total_days = total_days + Days[i];
+
+        }
+        total_days += day;
+
+        System.out.printf("기준일 (1년 1월 1일)부터 %d년 %d월 %d일까지의 총 일수는 %d입니다.\n", year, month, day, total_days);
+
+
+
+
+
+
+
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("연도를 입력하시오:");
+        int year = scanner.nextInt();
+
+        System.out.print("월을 입력하시오:");
+        int month = scanner.nextInt();
+
+        System.out.print("일을 입력하시오:");
+        int day = scanner.nextInt();
+
+        int[] Days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        int total_days = 0;
+        total_days += (year - 1) * 365;
+        total_days += year / 4 - year / 100 + year / 400;
+
+        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
+            if (month == 1 || month == 2) {
+                total_days -= -1;
+            }
+            Days[1] += 1;
+        }
+        for (int i = 0; i < month - 1; i++) {
+            total_days = total_days + Days[i];
+
+        }
+        total_days += day;
+
+        System.out.printf("기준일 (1년 1월 1일)부터 %d년 %d월 %d일까지의 총 일수는 %d입니다.\n", year, month, day, total_days);
+
+        System.out.printf(" 일  월  화  수  목  금  토\n");
+
+        int[][] calender = new int[5][7];
+        int n = 1;
+        int p =0;
+        int select = (total_days-day+1) % 7;
+
+        switch (select) {
+            case 0:
+
+
+                for(int k=0; k<0; k++){
+                    System.out.print("\t");
+                    p=k;}
+
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < 7; j++) {
+                        if (i == 0 && j == 0) {
+
+                            continue;
+                        }
+
+                        if ((p+j)%7 ==0 ) {
+                            System.out.println();
+                        }
+
+                        calender[i][j] = n;
+                        System.out.printf("%4d", calender[i][j]);
+                        n++;
+
+                        if(calender[i][j]==day)
+                            System.out.print("*");
+
+                        if (n > Days[month-1])
+                            break;
+                    }
+                }
+                System.out.println();
+                break;
+
+            case 1:
+                for(int k=0; k<1; k++){
+                    System.out.print("\t");
+                    p=k;}
+
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < 7; j++) {
+                        if (i == 0 && j == 0) {
+
+                            continue;
+                        }
+
+                        if ((p+j)%7 ==0 ) {
+                            System.out.println();
+                        }
+
+                        calender[i][j] = n;
+                        System.out.printf("%4d", calender[i][j]);
+                        n++;
+
+                        if(calender[i][j]==day)
+                            System.out.print("*");
+
+                        if (n > Days[month-1])
+                            break;
+                    }
+                }
+                System.out.println();
+
+                break;
+
+            case 2:
+                for(int k=0; k<2; k++){
+                    System.out.print("\t");
+                    p=k;}
+
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < 7; j++) {
+                        if (i == 0 && j == 0) {
+
+                            continue;
+                        }
+
+                        if ((p+j)%7 ==0 ) {
+                            System.out.println();
+                        }
+
+                        calender[i][j] = n;
+                        System.out.printf("%4d", calender[i][j]);
+                        n++;
+
+                        if(calender[i][j]==day)
+                            System.out.print("*");
+
+                        if (n > Days[month-1])
+                            break;
+                    }
+                }
+                System.out.println();
+
+                break;
+
+            case 3 :
+                for(int k=0; k<3; k++){
+                    System.out.print("\t");
+                    p=k;}
+
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < 7; j++) {
+                        if (i == 0 && j == 0) {
+
+                            continue;
+                        }
+
+                        if ((p+j)%7 ==0 ) {
+                            System.out.println();
+                        }
+
+                        calender[i][j] = n;
+                        System.out.printf("%4d", calender[i][j]);
+                        n++;
+
+                        if(calender[i][j]==day)
+                            System.out.print("*");
+
+                        if (n > Days[month-1])
+                            break;
+                    }
+                }
+                System.out.println();
+
+                break;
+
+            case 4:
+                for(int k=0; k<4; k++){
+                    System.out.print("\t");
+                    p=k;}
+
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < 7; j++) {
+                        if (i == 0 && j == 0) {
+
+                            continue;
+                        }
+
+                        if ((p+j)%7 ==0 ) {
+                            System.out.println();
+                        }
+
+                        calender[i][j] = n;
+                        System.out.printf("%4d", calender[i][j]);
+                        n++;
+
+                        if(calender[i][j]==day)
+                            System.out.print("*");
+
+                        if (n > Days[month-1])
+                            break;
+                    }
+                }
+                System.out.println();
+
+                break;
+
+            case 5:
+                for(int k=0; k<5; k++){
+                    System.out.print("\t");
+                    p=k;}
+
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < 7; j++) {
+                        if (i == 0 && j == 0) {
+
+                            continue;
+                        }
+
+                        if ((p+j)%7 ==0 ) {
+                            System.out.println();
+                        }
+
+                        calender[i][j] = n;
+                        System.out.printf("%4d", calender[i][j]);
+                        n++;
+
+                        if(calender[i][j]==day)
+                            System.out.print("*");
+
+                        if (n > Days[month-1])
+                            break;
+                    }
+                }
+                System.out.println();
+                break;
+
+            case 6:
+                for(int k=0; k<6; k++){
+                    System.out.print("\t");
+                    p=k;}
+
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < 7; j++) {
+                        if (i == 0 && j == 0) {
+
+                            continue;
+                        }
+
+                        if ((p+j)%7 ==0 ) {
+                            System.out.println();
+                        }
+
+                        calender[i][j] = n;
+                        System.out.printf("%4d", calender[i][j]);
+                        n++;
+
+                        if(calender[i][j]==day)
+                            System.out.print("*");
+
+                        if (n > Days[month-1])
+                            break;
+                    }
+                }
+                System.out.println();
+                break;
+
+        }
+
+    }
+}
